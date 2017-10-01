@@ -1,0 +1,227 @@
+body{
+	background-color:black;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.wrapper{
+	background-color: white;
+	width:90%;
+	border-top: 2px solid #eb743a;
+	margin: 0 auto;
+	overflow:hidden;
+	padding-bottom: 30px;
+}
+
+.main{
+	width:90%;
+	margin: 0 auto;
+	border-top: 10px solid #005d9e;
+}
+
+.content {
+	width: 100%;
+	padding: 10px 0 30px;
+	overflow: hidden;
+}
+
+.mainContent{
+	width: 60%;
+	float:left;
+	clear: both;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+a.showMe {
+	color: #5884a7;
+	float:right;
+	clear: both;
+}
+
+a.getHelp {
+	color: #5a5a5a;
+	float:none;
+	clear: both;
+}
+
+input {
+	display: block;
+	margin: 5px 0 10px;
+}
+
+button {
+	margin-bottom: 15px;
+	background-color: #00823a;
+	padding: 5px 10px;
+	color: white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #0a311c;
+}
+
+footer {
+	background-color: #dde1e4;
+	clear: both;
+	padding: 40px 0;
+	font-size: 14px;
+	border-top: 1px solid #c2c2c2;
+}
+
+footer section {
+	width: 90%;
+	margin: 0 auto;
+	color: #5a5a5a;
+	overflow: hidden;
+}
+
+footer ul {
+	margin: 0;
+	padding: 15px 0;
+}
+
+footer li , .subLinks, .copyright{
+	display: inline-block;
+}
+
+.subLinks {
+	vertical-align: bottom;
+	width: 74%;
+	margin-top: 0px;
+}
+.subLinks img {
+	float: left;
+	margin-right: 5px;
+}
+
+.subLinks p {
+	margin: 0;
+	line-height: 25px;
+}
+
+.subLinks a {
+	color: #5a5a5a;
+}
+
+.subLinks li a{
+	padding: 10px 5px;
+}
+
+.subLinks ul li:first-child a {
+	padding-left: 0px;
+}
+
+.copyright {
+	width: 25%;
+	text-align: right;
+}
+
+.copyright p {
+	margin: 0 12px 3px 0;
+}
+
+@media only screen and (max-width: 800px) and (min-width:401px){
+	body {
+	  text-align: center;
+	}
+	
+	.mainContent {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	input {
+		display: block;
+		margin: 10px auto;
+	}
+	
+	a.showMe {
+		float: none;
+	}
+	
+	footer section {
+		text-align: center;
+	}
+	
+	.subLinks {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	
+	.subLinks, .copyrite {
+		float: none;
+		width: 100%;
+	}
+	
+	.copyright {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	footer li {
+		display: block;
+		padding: 5px;
+	}
+}
+
+@media only screen and (max-width:400px) and (min-width:0px){
+	body {
+		min-width: 320px;
+		text-align: center;
+	}
+	
+	.mainContent {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	input {
+		display: block;
+		margin: 10px auto;
+	}
+	
+	a.showMe {
+		float: none;
+	}
+	
+	img.renewal {
+		width:100%;
+	}
+	
+	footer section {
+		text-align: center;
+	}
+	
+	.subLinks {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	
+	.subLinks, .copyrite {
+		float: none;
+		width: 100%;
+	}
+	
+	.copyright {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	footer li {
+		display: block;
+		padding: 5px;
+	}
+}
